@@ -127,5 +127,17 @@ form {
 
 .btn_area button {
     margin: 15px;
+    width: 5rem;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #4a5759;
+    color: #f7e1d7;
+}
 
+.btn_area button:hover {
+    background-color: #dedbd2;
+    cursor: pointer;
+    color: #4a5759;
+    transition: 0.2s ease-in;
 }
