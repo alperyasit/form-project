@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Submit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            Sizi Daha İyi Tanımak İçin Lütfen Ankette Boş Kısım Bırakmayınız
+        </nav>
+        <form action="https://formsubmit.co/alperyasitt@gmail.com" method="POST">
+            <div class="user_name">
+                <label for="user_name">Name </label>
+                <input type="text" id="user_name" name="user_name" placeholder="Your First Name" required />
+                <div class="user_lastname">
+                    <label for="user_lastname">Lastname </label>
+                    <input type="text" id="user_lastname" name="user_lastname" placeholder="Your Last Name" required />
+                </div>
+            </div>
+
+
+            <div class="user_mail">
+                <label for="user_mail"> Mail</label>
+                <input type="email" id="user_mail" name="user_mail" placeholder="Your Mail" required />
+            </div>
+            <div class="user_age">
+                <label for=""> Age</label>
+                <input type="number" id="user_age" name="user_age" min="15" max="70" style="margin-bottom: 10px;"
+                    required />
+            </div>
+            <div class="user_message">
+                <label for="">Message </label>
+                <textarea name="user_message" id="" cols="50" rows="2" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="user_points">
+                <label for="points">Points (between 0 and 10):</label>
+                <input type="range" id="points" name="points" min="0" max="10" required>
+            </div>
+            <button type="submit"> Kaydet</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
